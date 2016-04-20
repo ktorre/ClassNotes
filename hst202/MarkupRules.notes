@@ -1,0 +1,27 @@
+Based off of indentation and initial character
+    - Maybe change so just off of indentation but for now dashes dictate space
+	-- Number of dashes dictate subtopic
+	-- Try to get it like python rules so just off of whitespace
+	    --- Definitely something to strive for
+	    --- Dash rules too much junk characters
+    - Read line and initial character dictates indentation/subtopic
+	-- No dash = Main topic
+	-- dashes = subtopics to main topic
+Surrounding characters [ Parentheses, brackets, etc ]
+    - Parentheses
+	-- Printed on same line
+	-- pretty much literally printed
+    - Brackets
+	-- subline
+	-- printed smaller than previous text
+	-- printed below previous text
+	-- thought: maybe make it so only like this if it's on title else it'll act like parentheses? cause can't really subline on a slide. ( if I make it into slideshow type of thing )
+    - Curly Braces
+	-- Comments
+	-- Not printed
+    - Can be escaped with "\"
+	-- "\" can be escaped with "\\"
+Things to work on
+    - Work on making it so 'notes' file can be converted to a powerpoint
+	-- Main topic is it's own slide
+	-- Sub topics are on each slide with further indentation on same slide but sub-bullet points.
